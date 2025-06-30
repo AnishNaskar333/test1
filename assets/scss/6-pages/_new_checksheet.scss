@@ -1,0 +1,176 @@
+.create_form {
+  .header {
+    background-color: #bad100;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+  }
+
+  .brand-logo {
+    max-width: 150px;
+  }
+
+  .content {
+    background-color: #bad100;
+    padding: 20px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .sub-content {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .highlight {
+    background-color: #bad100;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    width: 400px;
+    margin-left: auto;
+    z-index: 1;
+    position: relative;
+  }
+
+  .inputBox {
+    position: relative;
+  }
+
+  .inputBox input,
+  textarea {
+    padding: 12px 15px 7px 15px;
+    outline: none;
+    background: transparent;
+    border-radius: 0;
+    color: #212121;
+    border: 1px solid#212121;
+    font-size: 1em;
+    width: 100%;
+    resize: none;
+  }
+
+  .inputBox span {
+    position: absolute;
+    left: 0;
+    font-size: 10px;
+    transform: translateX(14px) translateY(-7.5px);
+    padding: 0 6px 1px 5px;
+    border-radius: 2px;
+    background: #e8e8e8;
+    letter-spacing: 1px;
+    border: 1px solid #212121;
+    color: #212121;
+  }
+
+  // .container.left{
+  //     margin-top: -60px;
+  // }
+
+  .standards {
+    background-color: #2d2a7c;
+    color: white;
+    padding: 20px;
+    // margin-top: 60px;
+    height: 100%;
+  }
+  .standards h4 {
+    font-weight: bold;
+  }
+  .armor-coding {
+    margin-top: 15px;
+  }
+  .armor-coding .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .armor-coding .number {
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .standards {
+    .inputBox input,
+    textarea {
+      padding: 12px 15px 7px 15px;
+      outline: none;
+      background: transparent;
+    //   border-radius: 5px;
+      color: #ffffff;
+      border: 1px solid#ffffff;
+      font-size: 1em;
+      width: 100%;
+      resize: none;
+    }
+
+    .inputBox span {
+      position: absolute;
+      left: 0;
+      font-size: 10px;
+      transform: translateX(14px) translateY(-7.5px);
+      padding: 0 6px 1px 5px;
+      border-radius: 2px;
+      background: #e8e8e8;
+      letter-spacing: 1px;
+      border: 1px solid #212121;
+      color: #212121;
+    }
+  }
+
+  .color-box {
+    width: 25px;
+    height: 25px;
+    border-radius: 100px !important;
+    margin: 0 3px;
+    border: 1px solid #ccc !important;
+    padding: 0px;
+  }
+
+  .color_primary {
+    color: #bad100;
+  }
+
+  .top {
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    input {
+      color: #fff;
+      border-color: #fff;
+    }
+  }
+  .bottom_table {
+    th {
+      text-align: start;
+      font-size: 14px;
+    }
+    input {
+      border-radius: 0;
+      &:focus {
+        border-color: #e2e2e2;
+        outline: 0;
+        box-shadow: none !important;
+      }
+    }
+  }
+
+  .logo,
+  .top_section,
+  .middle_image,
+  .bottom_table,
+  .footer_inner {
+    padding: 10px;
+    border: 1px solid #e2e2e2;
+    margin-top: 10px;
+  }
+}
